@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D726F60D21343CAE00C42A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726F60C21343CAE00C42A05 /* AppDelegate.swift */; };
+		D726F60F21343CAE00C42A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726F60E21343CAE00C42A05 /* ViewController.swift */; };
+		D726F61221343CAE00C42A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726F61021343CAE00C42A05 /* Main.storyboard */; };
+		D726F61421343CB000C42A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D726F61321343CB000C42A05 /* Assets.xcassets */; };
+		D726F61721343CB000C42A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726F61521343CB000C42A05 /* LaunchScreen.storyboard */; };
+		D726F61F2134F81800C42A05 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726F61E2134F81700C42A05 /* ChoiceViewController.swift */; };
+		D726F6232135197500C42A05 /* 不正解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D726F6202135197500C42A05 /* 不正解.mp3 */; };
+		D726F6242135197500C42A05 /* 正解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D726F6212135197500C42A05 /* 正解.mp3 */; };
+		D726F6252135197500C42A05 /* 出題.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D726F6222135197500C42A05 /* 出題.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D726F60921343CAE00C42A05 /* JOJOQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOJOQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D726F60C21343CAE00C42A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D726F60E21343CAE00C42A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D726F61121343CAE00C42A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D726F61321343CB000C42A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D726F61621343CB000C42A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D726F61821343CB000C42A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D726F61E2134F81700C42A05 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		D726F6202135197500C42A05 /* 不正解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不正解.mp3"; sourceTree = SOURCE_ROOT; };
+		D726F6212135197500C42A05 /* 正解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "正解.mp3"; sourceTree = SOURCE_ROOT; };
+		D726F6222135197500C42A05 /* 出題.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "出題.mp3"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D726F60621343CAD00C42A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D726F60021343CAD00C42A05 = {
+			isa = PBXGroup;
+			children = (
+				D726F60B21343CAE00C42A05 /* JOJOQuiz */,
+				D726F60A21343CAE00C42A05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D726F60A21343CAE00C42A05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D726F60921343CAE00C42A05 /* JOJOQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D726F60B21343CAE00C42A05 /* JOJOQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				D726F6212135197500C42A05 /* 正解.mp3 */,
+				D726F6222135197500C42A05 /* 出題.mp3 */,
+				D726F6202135197500C42A05 /* 不正解.mp3 */,
+				D726F61E2134F81700C42A05 /* ChoiceViewController.swift */,
+				D726F60C21343CAE00C42A05 /* AppDelegate.swift */,
+				D726F60E21343CAE00C42A05 /* ViewController.swift */,
+				D726F61021343CAE00C42A05 /* Main.storyboard */,
+				D726F61321343CB000C42A05 /* Assets.xcassets */,
+				D726F61521343CB000C42A05 /* LaunchScreen.storyboard */,
+				D726F61821343CB000C42A05 /* Info.plist */,
+			);
+			path = JOJOQuiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D726F60821343CAD00C42A05 /* JOJOQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D726F61B21343CB000C42A05 /* Build configuration list for PBXNativeTarget "JOJOQuiz" */;
+			buildPhases = (
+				D726F60521343CAD00C42A05 /* Sources */,
+				D726F60621343CAD00C42A05 /* Frameworks */,
+				D726F60721343CAD00C42A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JOJOQuiz;
+			productName = JOJOQuiz;
+			productReference = D726F60921343CAE00C42A05 /* JOJOQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D726F60121343CAD00C42A05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Fujisawa-Yousuke";
+				TargetAttributes = {
+					D726F60821343CAD00C42A05 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D726F60421343CAD00C42A05 /* Build configuration list for PBXProject "JOJOQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D726F60021343CAD00C42A05;
+			productRefGroup = D726F60A21343CAE00C42A05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D726F60821343CAD00C42A05 /* JOJOQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D726F60721343CAD00C42A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D726F6232135197500C42A05 /* 不正解.mp3 in Resources */,
+				D726F61721343CB000C42A05 /* LaunchScreen.storyboard in Resources */,
+				D726F6252135197500C42A05 /* 出題.mp3 in Resources */,
+				D726F61421343CB000C42A05 /* Assets.xcassets in Resources */,
+				D726F6242135197500C42A05 /* 正解.mp3 in Resources */,
+				D726F61221343CAE00C42A05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D726F60521343CAD00C42A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D726F61F2134F81800C42A05 /* ChoiceViewController.swift in Sources */,
+				D726F60F21343CAE00C42A05 /* ViewController.swift in Sources */,
+				D726F60D21343CAE00C42A05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D726F61021343CAE00C42A05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D726F61121343CAE00C42A05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D726F61521343CB000C42A05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D726F61621343CB000C42A05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D726F61921343CB000C42A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D726F61A21343CB000C42A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D726F61C21343CB000C42A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JOJOQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fujisawa-Yousuke.JOJOQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D726F61D21343CB000C42A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JOJOQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fujisawa-Yousuke.JOJOQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D726F60421343CAD00C42A05 /* Build configuration list for PBXProject "JOJOQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D726F61921343CB000C42A05 /* Debug */,
+				D726F61A21343CB000C42A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D726F61B21343CB000C42A05 /* Build configuration list for PBXNativeTarget "JOJOQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D726F61C21343CB000C42A05 /* Debug */,
+				D726F61D21343CB000C42A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D726F60121343CAD00C42A05 /* Project object */;
+}
